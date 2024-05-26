@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Me contacta!</title>
+    <link rel="stylesheet" href="StyleContato.css">
+    <link rel="icon" href="/Imagens/Nishiki-removebg-preview.png">
+    <script type="text/javascript" src="ScriptContato.js"></script>
+</head>
+<body>
+    <header>
+        <div class="Superior">
+            <h>Seja bem-vido ao formulario de contato</h>
+            <br>
+            <h>por favor preencher todo com a informação correta</h>
+        </div>
+    </header>
+    <br><br>
+    <div class="formulario">
+        <form action="">
+            <label>digite seu nome:</label><input type="name" id="name" name="name" size="30" placeholder="Escreva seu nome completo">
+            <br><br>
+
+            <label>Telefone:</label><input type="tel" id="telefone" name="telefone" placeholder="Escreva seu telefone">
+            <br><br>
+
+            <label>E-Mail:</label><input type="email" id="email" name="email" placeholder="Escreva seu Email">
+            <br><br>
+
+            <label>Masculino</label><input type="radio" value="M" id="male" name="male">
+            <br>
+            <label>Femenino</label><input type="radio" value="F" id="female" name="female">
+            <br><br>
+
+            <label>Deixa um mensagem!</label>
+            <br>
+            <textarea name="mensagem" id="mensagem"></textarea>
+            <br><br>
+            
+            <label>Gosto do meu primeiro site pessoal?</label>
+            <select name="Pontuacao" id="Pontuacao">
+                <option value="10">É muito bom!!</option>
+                <option value="5">Pode melhorar</option>
+                <option value="0">Não T_T</option>
+            </select>
+            <br><br>
+        
+        <button id="final" onclick="enviar()">Enviar</button>
+        </form>        
+        <p id="paragrafo"></p>
+        <br>
+        
+        <br>
+        <button><a href="index.html" target="_self">Voltar para a pagina inicial</a></button>
+    </div>
+</body>
+</html>

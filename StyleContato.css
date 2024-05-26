@@ -1,0 +1,41 @@
+@import url(edosz.ttf);
+
+
+body{
+    margin: 0;
+    padding: 0;
+    background: url(/Imagens/ZeroBack.png);   
+    background-size: 100%;
+    background-position: fill;
+    height: 100%;
+    
+    font-family: "Edo SZ";
+    font-weight: lighter;
+}
+#Superior{
+    flex-direction: column;
+    justify-content: center;
+    
+    align-items: center;
+    display: flex;
+    margin-top: 3%;
+
+    color: white;
+    font-size: 2em;
+}
+ 
+.formulario{
+    flex-direction: column;
+    justify-content: center;
+    
+    align-items: center;
+    display: flex;
+    margin-top: 3%;
+
+    color: white;
+    font-size: 1.5em;
+}
+#mensagem{
+    width: 600px;
+    height: 150px;
+}
